@@ -1,0 +1,81 @@
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: azure;
+
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-container input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+/* Apply styles to the select element with class 'signup-select' */
+.login-select {
+  /* Specify width and height */
+  width: 200px;
+  height: 30px;
+
+  /* Define border properties */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  /* Define padding */
+  padding: 5px;
+
+  /* Define font properties */
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+
+  /* Define appearance */
+  -webkit-appearance: none; /* Remove default arrow on Chrome/Safari */
+  -moz-appearance: none; /* Remove default arrow on Firefox */
+  appearance: none; /* Remove default arrow on other browsers */
+
+  /* Define background and text colors */
+  background-color: #fff;
+  color: #333;
+
+  /* Define hover and focus styles */
+  :hover {
+    border-color: #aaa;
+  }
+
+  :focus {
+    outline: none;
+    border-color: #007bff;
+  }
+}

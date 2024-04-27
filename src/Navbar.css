@@ -1,0 +1,47 @@
+/* Navbar background color and text color */
+.navbar-dark {
+  background-color: #343a40 !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+/* Active link color */
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #17a2b8;
+}
+
+/* Hover color for links */
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #b3b3b3;
+}
+
+/* Padding for brand and links */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+  padding: 15px;
+}
+
+/* Right align login and sign up links */
+.navbar-dark .ml-auto .nav-link {
+  margin-left: 10px;
+}
+
+.mr-auto{
+  padding-left:1100px;
+}
+
+/* Navbar.css */
+.nav-link.active {
+  background-color: #ffffff; /* Change to your preferred active color */
+  color: #fff; /* Change to your preferred text color */
+  border-radius: 30px;
+}
+
+/* Optional: Adjust padding or margins as needed */
